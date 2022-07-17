@@ -35,8 +35,8 @@ class MemberServiceTest {
         Long saveId = memberService.join(member);
 
         // then (결과가 이런것이 나와야 해)
-        Member findName = memberService.findOne(saveId).get();
-        assertThat(member.getName()).isEqualTo(findName.getName());
+        Member findMember = memberService.findOne(saveId).get();
+        assertThat(member.getName()).isEqualTo(findMember.getName());
     }
 
     @Test

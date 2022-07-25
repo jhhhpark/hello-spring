@@ -1,6 +1,6 @@
 package hello.core.beanfind;
 
-import hello.core.order.AppConfig;
+import hello.core.AppConfig;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.config.BeanDefinition;

@@ -2,7 +2,7 @@ package hello.core.discount;
 
 import hello.core.member.Grade;
 import hello.core.member.Member;
-import hello.core.order.AppConfig;
+import hello.core.AppConfig;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

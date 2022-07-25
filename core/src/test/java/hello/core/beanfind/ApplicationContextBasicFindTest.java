@@ -2,7 +2,7 @@ package hello.core.beanfind;
 
 import hello.core.member.MemberService;
 import hello.core.member.MemberServiceImpl;
-import hello.core.order.AppConfig;
+import hello.core.AppConfig;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.NoSuchBeanDefinitionException;
